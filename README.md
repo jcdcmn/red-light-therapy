@@ -149,7 +149,7 @@ Please don't get the impression that red light therapy can cover up poor lifesty
 - Avoid the worst pollutants
 
 
-# Another post
+### Another post
 
 I did another post here a while ago:
 https://www.reddit.com/r/Biohackers/comments/a1vdl7/best_full_body_redlight/
