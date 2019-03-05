@@ -48,7 +48,7 @@ this_total_joules_position_2 = this_total_joules_position_1 * math.cos(math.radi
 this_total_joules_position_3 = this_total_joules_position_1 * math.cos(math.radians(45))
 this_total_joules_this = this_total_joules_position_1 + this_total_joules_position_2 + this_total_joules_position_3
 
-print("  - Total joules/centimetre2 this: " + str(this_total_joules_this))
+print("  - Total joules/centimetre2 this: " + str(round(this_total_joules_this,2)))
 
 
 print("")

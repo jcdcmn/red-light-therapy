@@ -37,7 +37,7 @@ Calculated (off-the-shelf red light therapy panels):
   - Total number of 45 degree angles in 360 degrees: 8
   - Total seconds to rotate 360 degrees: 480
   - Total minutes to rotate 360 degrees: 8.0
-  - Total joules/centimetre2 this: 2.3176450198781713
+  - Total joules/centimetre2 this: 2.32
 Calculated (final value):
   - Percent dose compared to one full-body NovoThor session of 10 minutes @ 16.666 mW/cm2: 23.2%
 ```
