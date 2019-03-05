@@ -1,8 +1,10 @@
 # Red Light Therapy
 
-Python code to calculate an optimum dose for red light therapy.
+Python code to calculate an optimum dose for red light therapy (i.e. photobiomodulation).
 
 This script compares the dose from a full body light pod from www.NovoThor.com, to a setup of off-the-shelf grow lights at the same light intensity and frequency. 
+
+For a complete discussion on the science behind how photobiomodulation works, see the book Red Light Therapy by Ari Whitten.
 
 ## Discussion on Reddit
 
