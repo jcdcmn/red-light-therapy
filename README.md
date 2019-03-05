@@ -12,12 +12,16 @@ But what is that fraction? Use the attached Python code to get a rough estimate.
 
 The output of the program is as follows:
 
-  Total seconds at each 45 degree angle: 60
-  Total number of 45 degree angles in 360 degreese: 8
-  Total seconds to rotate 360 degrees: 480
-  Total minutes to rotate 360 degrees: 8.0
-  What does our TES-1333 light meter read in W/m2? 260
-  Total joules/centimetre2 this: 3.7661731573020285
-  Total minutes NovoThor: 12.0
-  Total joules/centimetre2 NovoThor: 11.99952
-  Percent of NovoThor: 31.38603175212032
+```c
+What does our TES-1333 light meter read in W/m2? 260
+Total seconds at each 45 degree angle: 60
+Total number of 45 degree angles in 360 degreese: 8
+Total seconds to rotate 360 degrees: 480
+Total minutes to rotate 360 degrees: 8.0
+Total joules/centimetre2 this: 3.7661731573020285
+Total minutes NovoThor: 12.0
+Total joules/centimetre2 NovoThor: 11.99952
+Percent of NovoThor: 31.38603175212032
+```
+
+sO 
