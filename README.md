@@ -15,7 +15,7 @@ In a full-body red light therapy pod from www.NovoThor.com, one lies in the pod 
 
 To get the same effect from off-the-shelf grow lights, purchase some panels with the same wavelength as the NovoThor, which is 650nm and 810nm. Arrange four panels on the wall in a 2x2 grid. Using a light meter such as the TES-1333, find the right distance where the light intensity reads "160" on the meter. The meter is in W/m2, so this represents 16mW/cm2 of light intensity, same as the NovoThor.
 
-There are 360 degrees in a circle. Stand facing the panel, then rotate 45 degrees every 60 seconds. After 480 seconds, every square centimetre of skin will have received a fraction of the dose that an 12-minute session in the NovoThor would deliver.
+There are 360 degrees in a circle. Stand facing the panel, then rotate 45 degrees every 60 seconds. After 480 seconds, every square centimetre of skin will have received a fraction of the dose that an 10-minute session in the NovoThor would deliver.
 
 But what is that fraction? Use the attached Python code to get a better estimate.
 
@@ -51,7 +51,7 @@ Read said Reddit posts for warnings on:
 
 ## Summary
 
-It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 12-minute NovoThor session.
+It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 10-minute NovoThor session.
 
 # Original Reddit Post
 
