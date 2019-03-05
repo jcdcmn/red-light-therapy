@@ -16,7 +16,20 @@ this_total_seconds_per_eighth = 60
 print("  - Total seconds spent standing at each 45 degree angle: " + str(this_total_seconds_per_eighth))
 
 print("")
-print("Calculated (intermediate):")
+print("Calculated (NovoThor):")
+
+# What we would get from a full body light pod from www.NovoThor.com in N minutes.
+novothor_time_minutes = 10
+print("  - Total minutes in NovoThor: " + str(novothor_time_minutes))
+novothor_time_seconds = 60 * novothor_time_minutes
+novothor_millijoules_per_centimetre = 16.666
+print("  - Light intensity in NovoThor [mW/cm2]: " + str(novothor_millijoules_per_centimetre))
+novothor_total_joules_per_square_centimetre = novothor_time_seconds * novothor_millijoules_per_centimetre / 1000
+print("  - Total joules/centimetre2 NovoThor: " + str(round(novothor_total_joules_per_square_centimetre,1)))
+
+print("")
+print("Calculated (off-the-shelf red light therapy panels):")
+
 this_total_seconds = this_total_seconds_per_eighth * 8
 print("  - Total number of 45 degree angles in 360 degrees: 8")
 
@@ -35,18 +48,9 @@ this_total_joules_this = this_total_joules_position_1 + this_total_joules_positi
 
 print("  - Total joules/centimetre2 this: " + str(this_total_joules_this))
 
-# What we would get from a full body light pod from www.NovoThor.com in N minutes.
-novothor_time_minutes = 10
-print("  - Total minutes in NovoThor: " + str(novothor_time_minutes))
-novothor_time_seconds = 60 * novothor_time_minutes
-novothor_millijoules_per_centimetre = 16.666
-print("  - Light intensity in NovoThor [mW/cm2]: " + str(novothor_millijoules_per_centimetre))
-novothor_total_joules_per_square_centimetre = novothor_time_seconds * novothor_millijoules_per_centimetre / 1000
-print("  - Total joules/centimetre2 NovoThor: " + str(novothor_total_joules_per_square_centimetre))
-
-percent_our_setup_of_novothor = this_total_joules_this / novothor_total_joules_per_square_centimetre * 100
 
 print("")
 print("Calculated (final value):")
+percent_our_setup_of_novothor = this_total_joules_this / novothor_total_joules_per_square_centimetre * 100
 print("  - Percent dose compared to one full-body NovoThor session of " + str(novothor_time_minutes) + " minutes @ "
       + str(novothor_millijoules_per_centimetre) + " mW/cm2: " + str(round(percent_our_setup_of_novothor, 1)) + "%")
