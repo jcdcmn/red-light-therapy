@@ -26,7 +26,9 @@ Photobiomodulation (Red Light Therapy) Dose Calculator
   - Instructions: https://github.com/sharpe5/red-light-therapy/
 User set variables:
   - What does our TES-1333 light meter read in W/m2? 160
+    - Note: stand closer or further away to adjust this value. Should measure between 150 and 200 W/m2.
   - Total seconds spent standing at each 45 degree angle: 60
+    - Note: typically, a good dose is achieved by spending between 60 and 150 seconds at each 45 degree angle.
 Calculated (NovoThor):
   - Total minutes in NovoThor: 10
   - Light intensity in NovoThor [mW/cm2]: 16.666
