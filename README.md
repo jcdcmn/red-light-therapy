@@ -40,3 +40,7 @@ Calculated (final value):
 ## Summary
 
 It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 12-minute NovoThor session.
+
+## Pull Requests
+
+Spotted a way to improve this estimation? Pull requests welcome.
