@@ -44,7 +44,7 @@ Calculated (final value):
 
 ## Warnings
 
-Read the Reddit posts for warnings on:
+Read said Reddit posts for warnings on:
 - Exposure to eyes.
 - Exposure to testicles.
 - Overdosing.
