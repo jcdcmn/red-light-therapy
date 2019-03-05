@@ -26,7 +26,7 @@ User set variables:
   - What does our TES-1333 light meter read in W/m2? 160
   - Total seconds at each 45 degree angle: 60
 Calculated (intermediate):
-  - Total number of 45 degree angles in 360 degreese: 8
+  - Total number of 45 degree angles in 360 degrees: 8
   - Total seconds to rotate 360 degrees: 480
   - Total minutes to rotate 360 degrees: 8.0
   - Total joules/centimetre2 this: 2.3176450198781713

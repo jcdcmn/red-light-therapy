@@ -18,7 +18,7 @@ print("  - Total seconds spent standing at each 45 degree angle: " + str(total_s
 print("")
 print("Calculated (intermediate):")
 total_seconds = total_seconds_per_eighth * 8
-print("  - Total number of 45 degree angles in 360 degreese: 8")
+print("  - Total number of 45 degree angles in 360 degrees: 8")
 
 print("  - Total seconds to rotate 360 degrees: " + str(total_seconds))
 print("  - Total minutes to rotate 360 degrees: " + str(total_seconds/60))
@@ -26,7 +26,7 @@ print("  - Total minutes to rotate 360 degrees: " + str(total_seconds/60))
 milliwatts_per_centimeter = watts_per_meter / 10
 # each square centimetre of skin gets three exposures: facing panel, previous (45 degrees less), next (45 degrees more)
 # first position, facing straight at the panel
-total_joules_position_1 = total_seconds_per_eighth  *milliwatts_per_centimeter / 1000
+total_joules_position_1 = total_seconds_per_eighth * milliwatts_per_centimeter / 1000
 # next position, rotated 45 more degrees facing the panel
 total_joules_position_2 = total_joules_position_1 * math.cos(math.radians(45))
 # previous position, rotated 45 less degrees facing the panel
