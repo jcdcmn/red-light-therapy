@@ -1,5 +1,5 @@
 # Dose calculator for red light therapy (i.e. photobiomodulation).
-# Compares an off-the-shell red light therapy panels a session in a fully body light pod from www.NovoThor.com.
+# Compares dose from off-the-shell red light therapy panels to dose from a fully body light pod from www.NovoThor.com.
 # https://github.com/sharpe5/red-light-therapy/
 
 import os
