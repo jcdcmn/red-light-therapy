@@ -2,6 +2,8 @@
 
 Python code to calculate an optimum dose for red light therapy.
 
+This script compares the dose from a full body light pod from www.NovoThor.com, to a setup of off-the-shelf grow lights at the same light intensity and frequency. 
+
 ## Discussion on Reddit
 
 https://www.reddit.com/r/Nootropics/comments/avulcd/budget_led_light_therapy_infared_red_blue_uv_etc/
