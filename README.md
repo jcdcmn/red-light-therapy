@@ -42,6 +42,13 @@ Calculated (final value):
   - Percent dose compared to one full-body NovoThor session of 10 minutes @ 16.666 mW/cm2: 23.2%
 ```
 
+## Warnings
+
+Read the Reddit posts for warnings on:
+- Exposure to eyes.
+- Exposure to testicles.
+- Overdosing.
+
 ## Summary
 
 It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 12-minute NovoThor session.
