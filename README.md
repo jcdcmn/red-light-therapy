@@ -55,6 +55,9 @@ It turns out that if the light intensity on the skin is the same as the NovoThor
 
 # Original Reddit Post
 
+https://www.reddit.com/r/Nootropics/comments/avulcd/budget_led_light_therapy_infared_red_blue_uv_etc/
+https://www.reddit.com/r/Biohackers/comments/a1vdl7/best_full_body_redlight/
+
 ## Title: Build your own red light therapy rig
 
 Source: I beat chronic pain using a full body red light therapy rig. I do have a science degree which helped with the physics side of the build. This tries to summarize 12 months of experience.
