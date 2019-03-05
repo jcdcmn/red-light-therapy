@@ -2,6 +2,13 @@
 
 Python code to calculate an optimum dose for red light therapy.
 
+## Discussion on Reddit
+
+https://www.reddit.com/r/Nootropics/comments/avulcd/budget_led_light_therapy_infared_red_blue_uv_etc/
+https://www.reddit.com/r/Biohackers/comments/a1vdl7/best_full_body_redlight/
+
+## Instructions
+
 In a full-body red light therapy pod from www.NovoThor.com, one lies in the pod and receives 16mW/cm2 for 8 minutes, for a total of 8 joules per square centimetre of skin.
 
 To get the same effect from off-the-shelf grow lights, purchase some panels with the same wavelength as the NovoThor, which is 650nm and 810nm. Arrange four panels on the wall in a 2x2 grid. Using a light meter such as the TES-1333, find the right distance where the light intensity reads "160" on the meter. The meter is in W/m2, so this represents 16mW/cm2 of light intensity, same as the NovoThor.
@@ -9,8 +16,6 @@ To get the same effect from off-the-shelf grow lights, purchase some panels with
 There are 360 degrees in a circle. Stand facing the panel, then rotate 45 degrees every 60 seconds. After 480 seconds, every square centimetre of skin will have received a fraction of the dose that an 8-minute session in the NovoThor would deliver.
 
 But what is that fraction? Use the attached Python code to get a better estimate.
-
-It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 12-minute NovoThor session.
 
 The output of the program is as follows:
 
@@ -31,3 +36,7 @@ Calculated (intermediate):
 Calculated (final value):
   - Percent dose compared to one full-body NovoThor session of 12 minutes @ 16.666 mW/cm2: 19.3%
 ```
+
+## Summary
+
+It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 12-minute NovoThor session.
