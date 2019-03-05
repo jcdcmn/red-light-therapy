@@ -1,4 +1,4 @@
-# Red Light Therapy
+# Red Light Therapy Dose Calculator
 
 Python code to calculate an optimum dose for red light therapy (i.e. photobiomodulation).
 
