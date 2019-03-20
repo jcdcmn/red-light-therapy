@@ -29,11 +29,15 @@ print("  - Total minutes in NovoThor: " + str(novothor_time_minutes))
 novothor_time_seconds = 60 * novothor_time_minutes
 novothor_millijoules_per_centimetre = 16.666
 print("  - Light intensity in NovoThor [mW/cm2]: " + str(novothor_millijoules_per_centimetre))
+print("    - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.")
 novothor_total_joules_per_square_centimetre = novothor_time_seconds * novothor_millijoules_per_centimetre / 1000
 print("  - Total joules/centimetre2 NovoThor: " + str(round(novothor_total_joules_per_square_centimetre,1)))
 
 print("")
 print("Calculated (off-the-shelf red light therapy panels):")
+
+print("  - Light intensity as measured by TES-1333 light meter [W/m2]: " + str(this_watts_per_meter))
+print("    - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.")
 
 this_total_seconds = this_total_seconds_per_eighth * 8
 print("  - Total number of 45 degree angles in 360 degrees: 8")

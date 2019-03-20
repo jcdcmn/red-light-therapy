@@ -34,8 +34,11 @@ User set variables:
 Calculated (NovoThor):
   - Total minutes in NovoThor: 10
   - Light intensity in NovoThor [mW/cm2]: 16.666
+    - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.
   - Total joules/centimetre2 NovoThor: 10.0
 Calculated (off-the-shelf red light therapy panels):
+  - Light intensity as measured by TES-1333 light meter [W/m2]: 160
+    - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.
   - Total number of 45 degree angles in 360 degrees: 8
   - Total seconds to rotate 360 degrees: 480
   - Total minutes to rotate 360 degrees: 8.0
