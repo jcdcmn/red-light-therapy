@@ -95,7 +95,7 @@ The NovoThor from www.NovoThor.com is the gold standard for fully body light pod
 
 ### Check 4: Light: 50% red and 50% infrared?
 
-Do the specs say that the light panel is producing red (650nm) and infrared (810nm)? If in doubt, look at the specs for the NovoThor and try to match them.
+Do the specs say that the light panel is producing red (660nm) and infrared (850nm). If in doubt, look at the specs for the NovoThor and try to match them.
 
 ### Check 5: Buy a light meter
 
