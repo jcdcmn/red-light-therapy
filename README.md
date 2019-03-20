@@ -99,7 +99,7 @@ Do the specs say that the light panel is producing red (660nm) and infrared (850
 
 ### Check 5: Buy a light meter
 
-A light meter is essential. I have the TES-1333. Any light meter will do, as long as it is sensitive to 650nm (red) and 810nm (infrared) light. Some manufacturers have been known to mix up their mW/cm2 and W/m2, so their specs are wrong. There is no shortcut: you have to measure.
+A light meter is essential. I have the TES-1333. Any light meter will do, as long as it is sensitive to 650nm (red) and 850nm (infrared) light. Some manufacturers have been known to mix up their mW/cm2 and W/m2, so their specs are wrong. There is no shortcut: you have to measure.
 
 ### Check 6: Where do I source the panels?
 
