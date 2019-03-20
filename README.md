@@ -15,7 +15,7 @@ https://www.reddit.com/r/Biohackers/comments/a1vdl7/best_full_body_redlight/
 
 In a full-body red light therapy pod from www.NovoThor.com, one lies in the pod and receives 16mW/cm2 or 1 joule per minute. After 10 minutes, this is 10 joules per square centimetre of skin.
 
-To get the same effect from off-the-shelf grow lights, purchase some panels with the same wavelength as the NovoThor, which is 650nm and 810nm. Arrange four panels on the wall in a 2x2 grid. Using a light meter such as the TES-1333, find the right distance where the light intensity reads "160" on the meter. The meter is in W/m2, so this represents 16mW/cm2 of light intensity, same as the NovoThor.
+To get the same effect from off-the-shelf grow lights, purchase some panels with the same wavelength as the NovoThor, which is 650nm and 850nm. Arrange four panels on the wall in a 2x2 grid. Using a light meter such as the TES-1333, find the right distance where the light intensity reads "160" on the meter. The meter is in W/m2, so this represents 16mW/cm2 of light intensity, same as the NovoThor.
 
 There are 360 degrees in a circle. Stand facing the panel, then rotate 45 degrees every 60 seconds. After 480 seconds, every square centimetre of skin will have received a fraction of the dose that a 10-minute session in the NovoThor would deliver.
 
