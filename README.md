@@ -139,7 +139,7 @@ Eyes: Try not to look directly at the light. LED light is *not* coherent (like a
 
 The reason? Infrared light is invisible, and cheap eyewear could let this through. And even if you use eyewear, just close your eyes most of the time.
 
-Testicles: avoid infrared light (810nm) on one's testicles. They are more sensitive. Personally, until there is more scientific consensus, I use an opaque codpiece (for lack of a better word).
+Testicles: avoid infrared light (~850nm) on one's testicles. They are more sensitive. Personally, until there is more scientific consensus, I use an opaque codpiece (for lack of a better word).
 
 ### Check 10: The science behind it
 
