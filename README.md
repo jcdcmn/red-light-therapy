@@ -130,7 +130,7 @@ In general, you want the same light dose as NovoThor. And that means 16mW/cm2 fo
 
 Personally, I spend a total of 16 minutes in front of the full body 2x2 grid of light panels. I stand the right distance away to get 16mW/cm2 on the skin. I rotate 45 degrees every 2 minutes. If you do the math, that gives a good portion of the dose compared to NovoThor.
 
-I actually have a Python script which does all the calculations, see https://github.com/sharpe5/red-light-therapy. Given the total time standing in front of my panel at a certain distance at a certain light intensity as measured by my light meter, what percentage of the dosage of a full body 8 minute NovoThor session am I getting, in joules / cm2? Let me know if you want me to post it. It does have a few cosines in it to account for dosage received at each angle while rotating.
+I actually have a Python script which does all the calculations, see https://github.com/sharpe5/red-light-therapy. Given the total time standing in front of my panel at a certain distance at a certain light intensity as measured by my light meter, what percentage of the dosage of a full body 8 minute NovoThor session am I getting, in joules / cm2?
 
 ### Check 9: Safety (Testicles and eyes)
 
