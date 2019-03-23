@@ -56,7 +56,9 @@ Read said Reddit posts for warnings on:
 
 ## Summary
 
-It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to 20% of a standard 10-minute NovoThor session.
+It turns out that if the light intensity on the skin is the same as the NovoThor, at between 15 and 20mW/cm2, then 60 seconds at each 45 degree angle is equivalent to approximately 23% of a standard 10-minute NovoThor session. 
+
+Thus, if you want to have approximately the same dose (92%) of a standard 10-minute NovoThor session, spend four times as long (about about 240 seconds or 4 minutes) at each 45 degree angle. On a practical level, start at 60 seconds and work your way up.
 
 # Original Reddit Post
 
