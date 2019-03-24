@@ -25,14 +25,20 @@ The output of the program is as follows:
 
 ```
 Photobiomodulation (Red Light Therapy) Dose Calculator
+  - Help screen: C:\Program Files\JetBrains\PyCharm 2018.3.2\helpers\pydev\pydevconsole.py -h
   - Instructions: https://github.com/sharpe5/red-light-therapy/
-User set variables:
-  - What does our TES-1333 light meter read in W/m2? 160
-    - Note: stand closer or further away to adjust this value. Should measure between 150 and 200 W/m2.
-  - Total seconds spent standing at each 45 degree angle: 60
-    - Note: typically, a good dose is achieved by spending between 60 and 150 seconds at each 45 degree angle.
+Command line arguments:
+  --watts=160
+    - What does our TES-1333 light meter read in W/m2? 160
+    - Stand closer or further away to adjust this value. 
+    - To match the NovoThor, should measure between 150 and 200 W/m2. Can reasonably go up to 400W/m2.
+    - To match the NovoThor, assumes half/half red (650nm) and infrared (850nm).
+    - When measuring, any light meter which matches these specs will do.
+  --seconds=60
+    - Total seconds spent standing at each 45 degree angle: 60
+    - Note: typically, a good dose is achieved by spending between 60 and 200 seconds at each 45 degree angle.
 Calculated (NovoThor):
-  - Total minutes in NovoThor: 10
+  - Total minutes in NovoThor: 10.0
   - Light intensity in NovoThor [mW/cm2]: 16.666
     - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.
   - Total joules/centimetre2 NovoThor: 10.0
@@ -40,11 +46,11 @@ Calculated (off-the-shelf red light therapy panels):
   - Light intensity as measured by TES-1333 light meter [W/m2]: 160
     - Note: W/m2 is ten times the value in mW/cm2, as there is 10000 square centimeters in a metre, and 1000 milliwatts in a watt.
   - Total number of 45 degree angles in 360 degrees: 8
-  - Total seconds to rotate 360 degrees: 480
+  - Total seconds to rotate 360 degrees: 480.0
   - Total minutes to rotate 360 degrees: 8.0
   - Total joules/centimetre2 this: 2.32
 Calculated (final value):
-  - Percent dose compared to one full-body NovoThor session of 10 minutes @ 16.666 mW/cm2: 23.2%
+  - Percent dose compared to one full-body NovoThor session of 10.0 minutes @ 16.666 mW/cm2: 23.2%
 ```
 
 ## Warnings
