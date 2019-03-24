@@ -26,15 +26,16 @@ The output of the program is as follows:
 ```
 Photobiomodulation (Red Light Therapy) Dose Calculator
   - Help screen: C:\Program Files\JetBrains\PyCharm 2018.3.2\helpers\pydev\pydevconsole.py -h
+  - Compares dose from a full body light pod from www.NovoThor.com to off-the-shell red light therapy panels.
   - Instructions: https://github.com/sharpe5/red-light-therapy/
 Command line arguments:
-  --watts=160
+  --watts 160
     - What does our TES-1333 light meter read in W/m2? 160
     - Stand closer or further away to adjust this value. 
-    - To match the NovoThor, should measure between 150 and 200 W/m2. Can reasonably go up to 400W/m2.
-    - To match the NovoThor, assumes half/half red (650nm) and infrared (850nm).
-    - When measuring, any light meter which matches these specs will do.
-  --seconds=60
+    - To match the NovoThor specs, should measure between 150 and 200 W/m2. Can reasonably go up to 400W/m2.
+    - To match the NovoThor specs, assumes half/half red (650nm) and infrared (850nm).
+    - When measuring, any light meter which is sensitive to said wavelengths of light will do.
+  --seconds 60
     - Total seconds spent standing at each 45 degree angle: 60
     - Note: typically, a good dose is achieved by spending between 60 and 200 seconds at each 45 degree angle.
 Calculated (NovoThor):

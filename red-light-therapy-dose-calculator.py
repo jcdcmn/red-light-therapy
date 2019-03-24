@@ -21,6 +21,7 @@ if len(unknown) == 2:
 
 print("Photobiomodulation (Red Light Therapy) Dose Calculator")
 print("  - Help screen: %s -h" % sys.argv[0])
+print("  - Compares dose from a full body light pod from www.NovoThor.com to off-the-shell red light therapy panels.")
 print("  - Instructions: https://github.com/sharpe5/red-light-therapy/")
 print("")
 print("Command line arguments:")
