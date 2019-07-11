@@ -10,8 +10,8 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser(description='Dose calculator for red light therapy.')
-parser.add_argument('watts', metavar='WATTS', type=int, default=160, nargs='?', help='Watts Per Squared Meter')
-parser.add_argument('seconds', metavar='SECONDS', type=int, default=60, nargs='?', help='Seconds Per 45 Degree Round')
+parser.add_argument('--watts', metavar='WATTS', type=int, default=160, nargs='?', help='Watts Per Squared Meter')
+parser.add_argument('--seconds', metavar='SECONDS', type=int, default=60, nargs='?', help='Seconds Per 45 Degree Round')
 
 args, unknown = parser.parse_known_args()
 # PyCharm: ignore extra arguments in interactive mode.
